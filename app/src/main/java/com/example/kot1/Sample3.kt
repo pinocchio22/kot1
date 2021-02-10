@@ -6,7 +6,7 @@ package com.example.kot1
  * @created 2021-02-09
  * @desc
  */
- 
+
 class Book private constructor(val id : Int, val name : String){
 
     companion object BookFactory : IdProvider {
